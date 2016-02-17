@@ -241,6 +241,9 @@
     <Compile Include="Application\CustomActionResults\CsvFileResult.cs" />
     <Compile Include="Application\ExtensionMethods\Extensions.cs" />
     <Compile Include="Application\ScheduledJobs\MarkAsSolutionReminderJob.cs" />
+    <Compile Include="Application\StorageProviders\DiskStorageProvider.cs" />
+    <Compile Include="Application\StorageProviders\StorageProvider.cs" />
+    <Compile Include="Application\TypeFactory.cs" />
     <Compile Include="Application\ViewEngine\ForumViewEngine.cs" />
     <Compile Include="Application\Localization\Localizer.cs" />
     <Compile Include="Application\ServiceFactory.cs" />
@@ -777,6 +780,7 @@
     <Content Include="Content\spectrum\spectrum.js" />
     <Content Include="Content\tinymce.css" />
     <Content Include="Content\uploads\readme.txt" />
+    <Content Include="Installer\ManualSql\manualVersionOneSevenToOneEight.sql" />
     <Content Include="Scripts\badges.js" />
     <Content Include="Scripts\bbeditor\emoticons\alien.png" />
     <Content Include="Scripts\bbeditor\emoticons\angel.png" />
